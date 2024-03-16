@@ -1,0 +1,5 @@
+replicaCount: 2
+service:
+  type: ClusterIP
+metrics:
+  enabled: true

@@ -1,0 +1,12 @@
+configs:
+  credentialTemplates:
+    ssh-creds:
+      url: git@github.com:esperar
+      sshPrivateKey: |
+        -----BEGIN OPENSSH PRIVATE KEY-----
+        xxxxxxxxxxxxxxxx
+        -----END OPENSSH PRIVATE KEY-----
+  repositories:
+    argocd:
+      name: argocd
+      url: git@github.com:esperar/argocd.git
